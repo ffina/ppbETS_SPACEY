@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769773117730",
+    "project_id": "spacey-3c942",
+    "storage_bucket": "spacey-3c942.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769773117730:android:d5aabfbf8d8cbbe868857b",
+        "android_client_info": {
+          "package_name": "com.example.spacey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkNb9w1xY0dJ0x00tHQhkyQscuobN1BhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
