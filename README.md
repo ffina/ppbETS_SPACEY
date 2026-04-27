@@ -3,7 +3,7 @@
 A new Flutter project.
 
 ## Link Demo Video 
-[link]([http](https://youtu.be/R9M-peUCBvA)) 
+[link](https://youtu.be/R9M-peUCBvA)
 
 ## Get to Know
 Spacey adalah aplikasi jurnal perjalanan  yang dirancang untuk mendokumentasikan memori berharga. Aplikasi ini memungkinkan pengguna untuk menangkap momen, mencatat perasaan, dan menyimpannya secara aman di Cloud.
