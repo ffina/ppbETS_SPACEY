@@ -20,19 +20,19 @@ Spacey adalah aplikasi jurnal perjalanan  yang dirancang untuk mendokumentasikan
 Berikut adalah detail implementasi teknis aplikasi Spacey berdasarkan kriteria penilaian:
 
 1. CRUD with Relational Database
-Implementasi sistem manajemen data menggunakan SQLite untuk operasional lokal. Pengguna dapat menambahkan memori baru (Create), melihat daftar memori pada halaman Home dan Explore (Read), memperbarui detail konten (Update), serta menghapus memori yang diinginkan (Delete).
+   Implementasi sistem manajemen data menggunakan SQLite untuk operasional lokal. Pengguna dapat menambahkan memori baru (Create), melihat daftar memori pada halaman Home dan Explore (Read), memperbarui detail konten (Update), serta menghapus memori yang diinginkan (Delete).
 
 2. Firebase Authentication
-Sistem keamanan akses menggunakan Firebase Auth untuk mengelola registrasi dan login pengguna. Setiap pengguna yang berhasil terautentikasi akan mendapatkan Unique Identifier (UID) yang memastikan privasi dan keamanan sinkronisasi data antar perangkat.
+   Sistem keamanan akses menggunakan Firebase Auth untuk mengelola registrasi dan login pengguna. Setiap pengguna yang berhasil terautentikasi akan mendapatkan Unique Identifier (UID) yang memastikan privasi dan keamanan sinkronisasi data antar perangkat.
 
 3. Cloud Data Storage
-Integrasi dengan Cloud Firestore untuk penyimpanan data jarak jauh secara real-time. Setiap postingan yang dibuat akan otomatis tersinkronisasi ke koleksi Firestore berdasarkan UID pengguna.
+   Integrasi dengan Cloud Firestore untuk penyimpanan data jarak jauh secara real-time. Setiap postingan yang dibuat akan otomatis tersinkronisasi ke koleksi Firestore berdasarkan UID pengguna.
 
 4. Automated Notifications
-Menggunakan Awesome Notifications dimana aplikasi akan memicu notifikasi secara otomatis setiap kali pengguna berhasil menyimpan atau membuat postingan baru.
+   Menggunakan Awesome Notifications dimana aplikasi akan memicu notifikasi secara otomatis setiap kali pengguna berhasil menyimpan atau membuat postingan baru.
 
 5. Smartphone Resource Integration
-Pemanfaatan perangkat keras smartphone melalui fitur Kamera menggunakan Image Picker. Selain itu, splikasi juga dapat mengelola berkas menggunakan File Manager untuk menyimpan dan menampilkan gambar langsung dari memori lokal perangkat.
+   Pemanfaatan perangkat keras smartphone melalui fitur Kamera menggunakan Image Picker. Selain itu, splikasi juga dapat mengelola berkas menggunakan File Manager untuk menyimpan dan menampilkan gambar langsung dari memori lokal perangkat.
 
 ## Getting Started
 
